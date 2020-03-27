@@ -43,7 +43,7 @@ int main(int argc, char ** argv)
         EndTime = MPI_Wtime();
         MeanError = MPI_Wtick();
         printf("MeanError * 10^6 =  %.3lf\n", MeanError * Order);
-        printf("BroadcastTime * 10^6 =  %.3lf\n", (EndTime - StartTime) * Order / N_of_iterations);
+        printf("ScatterTime * 10^6 =  %.3lf\n", (EndTime - StartTime) * Order / N_of_iterations);
     }
 	
 	MPI_Finalize();

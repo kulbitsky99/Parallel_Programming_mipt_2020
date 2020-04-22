@@ -30,4 +30,4 @@ Result:
 	computing_time = 6,784 us;
 
 
-In result, it is not so important to check `Multiply` parameter in our task, but if a summation is computed on extremely small numbers, the result will be incorrect(-nan in our case). 	
+In result, it is not so important to check `Multiply` parameter in our task, but if a summation is computed on extremely small numbers, the result will be incorrect. 	
